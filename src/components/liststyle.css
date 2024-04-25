@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  font-family: 'Merriweather', serif; /* Set the default font for the body */
+}
+
+.quote-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between boxes */
+}
+
+.quote-box {
+  background-color: #f5f5f5; /* Light background color */
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(33% - 32px); /* 3 boxes per row, with space in between */
+  font-family: 'Merriweather', serif; /* Apply the font to the quote boxes */
+}
+
+.quote-box p {
+  margin: 4px 0; /* Small margins for paragraph elements */
+  font-size: 1.1em; /* Slightly larger font size */
+  color: #333; /* Dark text for readability */
+}
+
+.button {
+  padding: 6px 12px;
+  background-color: #098b14;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-edit {
+  padding: 6px 12px;
+  background-color: #074580;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  width: 50%; /* Adjust as needed */
+  font-family: 'Lora', serif; /* Apply the font to the search input */
+}
